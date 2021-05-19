@@ -1,0 +1,17 @@
+﻿<catalog>
+	<book id="bk101">
+		<price>44.96</price>
+		<description>
+			An in-depth look at creating applications
+			with XML.
+		</description>
+	</book>
+	<book id="bk103">
+		<price>5.9500000001</price>
+		<description>
+			After the collapse of a nanotechnology
+			society in England, the young survivors lay the
+			foundation for a new society.
+		</description>
+	</book>
+</catalog>

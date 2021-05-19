@@ -121,8 +121,14 @@
   <data name="exampleA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>resources\examplea.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="exampleA_Function" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\examplea_function.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
   <data name="exampleB" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>resources\exampleb.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="exampleB_Function" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>resources\exampleb_function.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="HAAR01000" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>resources\haar01000.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>

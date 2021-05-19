@@ -66,6 +66,8 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\exampleA_Function.xml" />
+    <Content Include="Resources\exampleB_Function.xml" />
     <Content Include="Resources\exampleB.xml" />
     <Content Include="Resources\exampleA.xml" />
     <Content Include="Resources\HAAR01000.txt" />

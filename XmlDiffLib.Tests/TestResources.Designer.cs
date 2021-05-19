@@ -19,7 +19,7 @@ namespace XmlDiffLib.Tests {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class TestResources {
@@ -89,6 +89,31 @@ namespace XmlDiffLib.Tests {
         /// <summary>
         ///   Looks up a localized string similar to &lt;catalog&gt;
         ///  &lt;book id=&quot;bk101&quot;&gt;
+        ///    &lt;price&gt;44.96&lt;/price&gt;
+        ///    &lt;description&gt;
+        ///      An in-depth look at creating applications
+        ///      with XML.
+        ///    &lt;/description&gt;
+        ///  &lt;/book&gt;
+        ///  &lt;book id=&quot;bk103&quot;&gt;
+        ///    &lt;price&gt;5.95&lt;/price&gt;
+        ///    &lt;description&gt;
+        ///      After the collapse of a nanotechnology
+        ///      society in England, the young survivors lay the
+        ///      foundation for a new society.
+        ///    &lt;/description&gt;
+        ///  &lt;/book&gt;
+        ///&lt;/catalog&gt;.
+        /// </summary>
+        internal static string exampleA_Function {
+            get {
+                return ResourceManager.GetString("exampleA_Function", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;catalog&gt;
+        ///  &lt;book id=&quot;bk101&quot;&gt;
         ///    &lt;author&gt;Gambardella, Matthew&lt;/author&gt;
         ///    &lt;title&gt;XML Developer&apos;s Guide&lt;/title&gt;
         ///    &lt;genre&gt;Computer&lt;/genre&gt;
@@ -109,6 +134,31 @@ namespace XmlDiffLib.Tests {
         internal static string exampleB {
             get {
                 return ResourceManager.GetString("exampleB", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;catalog&gt;
+        ///	&lt;book id=&quot;bk101&quot;&gt;
+        ///		&lt;price&gt;44.95&lt;/price&gt;
+        ///		&lt;description&gt;
+        ///			An in-depth look at creating applications
+        ///			with XML.
+        ///		&lt;/description&gt;
+        ///	&lt;/book&gt;
+        ///	&lt;book id=&quot;bk103&quot;&gt;
+        ///		&lt;price&gt;5.95&lt;/price&gt;
+        ///		&lt;description&gt;
+        ///			After the collapse of a nanotechnology
+        ///			society in England, the young survivors lay the
+        ///			foundation for a new society. TEST
+        ///		&lt;/description&gt;
+        ///	&lt;/book&gt;
+        ///&lt;/catalog&gt;.
+        /// </summary>
+        internal static string exampleB_Function {
+            get {
+                return ResourceManager.GetString("exampleB_Function", resourceCulture);
             }
         }
         
@@ -135,8 +185,7 @@ namespace XmlDiffLib.Tests {
         ///		GenericFinanceAPRCharge2=&quot;0&quot;
         ///		GenericFinanceAPR_FlatChargeAmount=&quot;31&quot;
         ///		GenericFinanceAPR_FlatChargeAmount2=&quot;31&quot;
-        ///		GenericFinanceAmountNotFinanced=&quot;100&quot;
-        ///		GenericFinanceAmou [rest of string was truncated]&quot;;.
+        ///		GenericFinanceAmountNotFinanced=&quot;100 [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string HAAR01000 {
             get {
@@ -167,8 +216,7 @@ namespace XmlDiffLib.Tests {
         ///		GenericFinanceAPRCharge2=&quot;0&quot;
         ///		GenericFinanceAPR_FlatChargeAmount=&quot;31&quot;
         ///		GenericFinanceAPR_FlatChargeAmount2=&quot;31&quot;
-        ///		GenericFinanceAmountNotFinanced=&quot;100&quot;
-        ///		GenericFinanceAmou [rest of string was truncated]&quot;;.
+        ///		GenericFinanceAmountNotFinanced=&quot;100 [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string HAAR01001 {
             get {
