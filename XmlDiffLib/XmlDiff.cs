@@ -150,10 +150,8 @@ namespace XmlDiffLib
                             };
                             return false;
                         }
-                        if (xFrom.LocalName != xTo.LocalName || 
-                            (options.CompareFunction == null && xFrom.Value != xTo.Value) || 
-                            (options.CompareFunction != null && !options.CompareFunction(xFrom.Value, xTo.Value)))
-                        {
+                        if (xFrom.LocalName != xTo.LocalName || xFrom.Value != xTo.Value)
+                            {
                             nodeInfo = new XmlDiffNode()
                             {
                                 XPath = null,
